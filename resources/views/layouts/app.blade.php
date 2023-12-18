@@ -18,7 +18,11 @@
 <body>
     @include('partials.header')
     @yield('content')
-    @include('partials.footer')
+
 </body>
+<footer>
+    @include('partials.footer')
+    @include('partials.signup')
+</footer>
 
 </html>

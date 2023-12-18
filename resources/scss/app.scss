@@ -39,3 +39,58 @@ header{
         }
     }
 }
+#footer-one{
+    background-image: url(/public/images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+
+    ul{
+        list-style: none;
+        margin: 40px 0;
+
+        li{
+            color: $footer_li;
+            font-size: 0.8em;
+        }
+    }
+
+    h3{
+            color: $background_header;
+            font-weight: bold;
+        }
+    .img-fluid{
+        position: relative;
+        top: -100px;
+        height: 600px;
+
+    }
+}
+#footer-two{
+    background-color: $background_footer;
+
+    h4{
+        color: $color_primary;
+        font-weight: bold;
+        padding: 30px 10px;
+    }
+    img{
+        padding: 30px 10px;
+    }
+    button{
+        color: $background_header;
+        font-weight: bold;
+        border: 2px solid $color_primary;
+        border-radius: 0;
+        margin-top: 30px;
+
+        &:hover{
+            border: 2px solid $color_primary;
+            color: $color_primary;
+            transform: scale(1.2);
+            transition: all 0.3s ease;
+            text-decoration: underline;
+        }
+    }
+}
