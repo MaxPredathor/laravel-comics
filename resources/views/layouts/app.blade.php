@@ -18,7 +18,7 @@
 <body>
     @include('partials.header')
     @yield('content')
-
+    @include('partials.service')
 </body>
 <footer>
     @include('partials.footer')

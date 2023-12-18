@@ -19,6 +19,5 @@
             <button>LOAD MORE</button>
         </div>
     </main>
-    @include('partials.service')
 
 @endsection
