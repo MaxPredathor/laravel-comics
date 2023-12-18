@@ -117,3 +117,28 @@ header{
         }
     }
 }
+#service{
+    background-color: $color_primary;
+
+    .cards{
+        padding: 60px 0;
+
+        img{
+            display: inline-block;
+            width: 20%;
+        }
+        .locator{
+            display: inline-block;
+            width: 15%;
+
+        }
+
+        h5{
+            display: inline-block;
+            color: $background_header;
+            padding: 0 10px;
+            font-size: 0.8em;
+        }
+
+    }
+}
