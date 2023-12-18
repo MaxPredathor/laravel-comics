@@ -39,6 +39,43 @@ header{
         }
     }
 }
+main{
+    background-color: $background_main;
+    position: relative;
+    padding-bottom: 50px;
+
+    .my-card{
+        margin-bottom: 10px;
+        height: 306px;
+
+        img{
+            width: 100%;
+            height: 90%;
+            object-fit: contain;
+        }
+    }
+
+    h3{
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+    button{
+        position: absolute;
+        bottom: 10px;
+        left: 46%;
+        background-color: $color_primary;
+        color: $background_header;
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
 #jumbo{
     background-image: url(/public/images/jumbotron.jpg);
     background-size: cover;
