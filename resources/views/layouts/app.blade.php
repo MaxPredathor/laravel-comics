@@ -17,7 +17,6 @@
 
 <body>
     @include('partials.header')
-    @include('partials.jumbo')
     @yield('content')
 
 </body>
