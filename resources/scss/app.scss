@@ -12,3 +12,30 @@ $fa-font-path: "../webfonts" !default;
 h1{
     color: $text-color;
 }
+
+header{
+    background-color: $background_header;
+
+    ul{
+        list-style: none;
+        height: 100%;
+        margin: 0 !important;
+
+        li{
+            padding: 60px 10px;
+            font-weight: bold;
+            color: $nav_list;
+            height: 100%;
+
+            &:hover{
+                color: $color_primary;
+                border-bottom: 5px solid $color_primary;
+                padding: 60px 10px 55px 10px;
+            }
+        }
+        .my-div{
+            height: 100%;
+
+        }
+    }
+}
