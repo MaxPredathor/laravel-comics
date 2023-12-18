@@ -39,6 +39,29 @@ header{
         }
     }
 }
+#jumbo{
+    background-image: url(/public/images/jumbotron.jpg);
+    background-size: cover;
+    height: 400px;
+    position: relative;
+
+    button{
+        background-color: $color_primary;
+        color: $background_header;
+        font-weight: bold;
+        font-size: 1.2em;
+        border: none;
+        padding: 10px 20px;
+        position: absolute;
+        bottom: -25px;
+        left: 15%;
+        z-index: 100;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
 #footer-one{
     background-image: url(/public/images/footer-bg.jpg);
     background-repeat: no-repeat;
