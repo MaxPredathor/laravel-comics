@@ -50,7 +50,7 @@
             </div>
         </div>
         <div>
-            <img class=" img-fluid" src="/images/dc-logo-bg.png" alt="">
+            <img class=" img-fluid" src="{{Vite::asset('resources/img/dc-logo-bg.png')}}" alt="">
         </div>
     </div>
 </div>
