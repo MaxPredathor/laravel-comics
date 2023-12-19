@@ -14,7 +14,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{$comics['title']}}</h5>
                         <p class="card-text">{{ substr($comics['description'], 0, 100) . '...' }}</p>
-                        <a href="{{route('products.show', $key)}}" class="btn btn-primary">Vedi dettaglio</a>
+                        <a href="{{route('comics.show', $key)}}" class="btn btn-primary">Vedi dettaglio</a>
                     </div>
                 </div>
             </div>

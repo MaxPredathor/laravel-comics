@@ -29,10 +29,6 @@
                         <h6 class="text-end">ADVERTISMENT</h6>
                         <img src="{{Vite::asset('resources/img/adv.jpg')}}" alt="">
                     </div>
-
-                    {{-- <p>
-                        Prezzo: {{$comic['price']}} | Data di Uscita: {{$comic['sale_date']}} | Tipo: {{$comic['type']}}
-                    </p> --}}
                 </div>
             </div>
         </div>

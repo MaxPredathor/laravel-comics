@@ -22,17 +22,16 @@ Route::get('/about', function () {
 })->name('about');
 
 Route::get('/comics', function () {
-    return view('products.index');
+    return view('comics.index');
 })->name('comics');
 
-Route::get('/products/{id}', function ($id) {
+Route::get('/comics/{id}', function ($id) {
     $comics = config('comics.key');
-    //cercare prodotto con quell'id
     // if ($id >= 0 && $id < count($products)) {
     $comic = $comics[$id];
 
-    return view('products.show', compact('comic'));
+    return view('comics.show', compact('comic'));
     // } else {
     //     abort(404);
     // }
-})->name('products.show');
+})->name('comics.show');
