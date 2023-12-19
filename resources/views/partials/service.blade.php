@@ -1,4 +1,4 @@
-<div id="service" class="wrapper">
+<div id="service" class="wrapper d-flex justify-content-center">
     <div class="container d-flex justify-content-between align-content-center">
         <div class="cards">
             <img src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="">

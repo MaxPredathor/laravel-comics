@@ -37,6 +37,20 @@ header{
                 color: $nav_list;
             }
         }
+        .selected-page{
+            color: $color_primary !important;
+            border-bottom: 5px solid $color_primary;
+            padding: 60px 10px 55px 10px;
+
+            &:hover{
+                color: $color_primary;
+                border-bottom: 5px solid $color_primary;
+                padding: 60px 10px 55px 10px;
+            }
+            a{
+                color: $color_primary;
+            }
+        }
         .my-div{
             height: 100%;
 
@@ -50,7 +64,7 @@ main{
 
     .my-card{
         margin: 10px 0 40px 0;
-        height: 306px;
+        height: 200px;
 
         img{
             width: 100%;
@@ -183,6 +197,5 @@ main{
             padding: 0 10px;
             font-size: 0.8em;
         }
-
     }
 }
