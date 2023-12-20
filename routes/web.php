@@ -25,6 +25,10 @@ Route::get('/comics', function () {
     return view('comics.index');
 })->name('comics');
 
+Route::get('/404', function () {
+    return view('pageNotFound');
+})->name('404');
+
 Route::get('/comics/{id}', function ($id) {
     $comics = config('comics.key');
     // if ($id >= 0 && $id < count($products)) {
@@ -35,3 +39,7 @@ Route::get('/comics/{id}', function ($id) {
     //     abort(404);
     // }
 })->name('comics.show');
+
+Route::fallback(function () {
+    return redirect()->route('404');
+});
